@@ -2,28 +2,30 @@
 
 Just a simple query application that I learned. I learned to use Next.js and javascript for validation and filtering the data based on JSON data provided from the server.
 
-```json
-{
-      id: 1,
-      name: "John Doe",
-      email: "johndoe@example.com",
-      age: 30,
-      position: "Software Engineer",
-    },
-    {
-      id: 2,
-      name: "Jane Doe",
-      email: "janedoe@example.com",
-      age: 25,
-      position: "Data Scientist",
-    },
-    {
-      id: 3,
-      name: "Peter Smith",
-      email: "petersmith@example.com",
-      age: 40,
-      position: "Manager",
-    },
+```js
+[
+  {
+    id: 1,
+    name: "John Doe",
+    email: "johndoe@example.com",
+    age: 30,
+    position: "Software Engineer",
+  },
+  {
+    id: 2,
+    name: "Jane Doe",
+    email: "janedoe@example.com",
+    age: 25,
+    position: "Data Scientist",
+  },
+  {
+    id: 3,
+    name: "Peter Smith",
+    email: "petersmith@example.com",
+    age: 40,
+    position: "Manager",
+  },
+];
 ```
 
 ### Server
